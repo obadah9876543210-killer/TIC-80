@@ -5,7 +5,7 @@ name: Release PRO
 # artifacts are readable by anyone with the run id, which would leak the
 # paid build. Instead each job builds PRO and pushes it in the same step, so
 # the binary only ever lives on the ephemeral runner. Paid/free is set per
-# file on the itch.io dashboard; the channels below carry the -pro suffix.
+# file on the itch.io dashboard; the channels below carry the -pro suffix ya.
 
 on:
   release:
